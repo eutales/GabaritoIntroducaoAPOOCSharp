@@ -8,7 +8,7 @@ internal class Program
         System.Console.Write("Informe o RAIO de um círculo: ");
         circulo.Raio = Convert.ToDouble(System.Console.ReadLine());
 
-        System.Console.WriteLine("=====");
+        System.Console.WriteLine("======");
         System.Console.WriteLine("Area: " + circulo.Area());
         System.Console.WriteLine("Comprimento: " + circulo.Comprimento());
 
